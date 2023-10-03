@@ -5,7 +5,7 @@ public class Student {
     private String name;
     private int year;
 
- Student(){   }
+ public Student(){   }
 
 public int getRollNo(){
     return rollNo;
@@ -24,10 +24,10 @@ public void setName(String name){
 }
 
 public void getMessage(){
-    System.out.println("Roll NO: "+rollNo+" Name: "+name+" Year: "+year);
+    System.out.println("Roll NO: "+this.rollNo+" Name: "+this.name+" Year: "+this.getYear());
 }
 
-/*
+
 public void setYear(int year){
     this.year=year;
 }
@@ -35,5 +35,5 @@ public void setYear(int year){
 public int getYear(){
     return year;
 }
-*/
+
 }
