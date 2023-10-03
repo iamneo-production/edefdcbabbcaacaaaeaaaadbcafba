@@ -23,10 +23,11 @@ public void setName(String name){
     this.name=name;
 }
 
-public String getMessage(){
-    return "Roll NO "+rollNo+" Name: "+name+" Year "+year;
+public void getMessage(){
+    System.out.println("Roll NO: "+rollNo+" Name: "+name+" Year: "+year);
 }
 
+/*
 public void setYear(int year){
     this.year=year;
 }
@@ -34,4 +35,5 @@ public void setYear(int year){
 public int getYear(){
     return year;
 }
+*/
 }

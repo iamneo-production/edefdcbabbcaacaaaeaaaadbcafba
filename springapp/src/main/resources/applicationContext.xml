@@ -6,7 +6,7 @@
    
 	<bean id="student" class="com.examly.springapp.ioc.Student">
         <property name="rollNo" value="100"></property>
-        <property name="name" value="3"></property>
+        <property name="name" value="Mike"></property>
         <property name="year" value="3"></property>
     </bean>
 	
