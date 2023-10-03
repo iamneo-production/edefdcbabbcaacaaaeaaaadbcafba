@@ -24,7 +24,7 @@ public void setName(String name){
 }
 
 public String getMessage(){
-    return "Roll NO "+rollNo+" Name: "+name;
+    return "Roll NO "+rollNo+" Name: "+name+;
 }
 
 public void setYear(int year){

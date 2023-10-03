@@ -10,8 +10,4 @@ public class AppConfig {
 
 	//Call Model class here with @Bean annotation
 	
-    @Bean
-    public Student getStudent(){
-        return new Student();
-    }
 }
