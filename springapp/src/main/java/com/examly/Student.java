@@ -24,15 +24,14 @@ public void setName(String name){
 }
 
 public String getMessage(){
-    return "Roll NO "+rollNo+" Name: "+name+;
+    return "Roll NO "+rollNo+" Name: "+name+" Year "+year;
 }
 
 public void setYear(int year){
     this.year=year;
 }
 
-public String getYear(){
-    return "Year: "+year;
+public int getYear(){
+    return year;
 }
-
 }
