@@ -1,9 +1,11 @@
+package com.examly.springapp.ioc;
+
 public class Student {
     private int rollNo;
     private String name;
     
 
-    Student(){
+ Student(){
 
     }
 public String getRollNo(){
@@ -14,12 +16,12 @@ public void setRollNo(int rollNo){
     this.rollNo=rollNo;
 }
 
-public String getName){
+public String getName(){
     return name;
 }
 
-public void setRollNo(int rollNo){
-    this.rollNo=rollNo;
+public void setName(String name){
+    this.name=name;
 }
 
 
