@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.ioc.ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.174 s <<< FAILURE! - in com.examly.springapp.ioc.ApplicationTests
-test_case2  Time elapsed: 0.062 s  <<< FAILURE!
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.263 s <<< FAILURE! - in com.examly.springapp.ioc.ApplicationTests
+test_case2  Time elapsed: 0.033 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Demo Student]> but was:<[Mike]>
 	at com.examly.springapp.ioc.ApplicationTests.test_case2(ApplicationTests.java:46)
 
-test_case3  Time elapsed: 0.021 s  <<< FAILURE!
+test_case3  Time elapsed: 0.046 s  <<< FAILURE!
 java.lang.AssertionError: expected:<2023> but was:<3>
 	at com.examly.springapp.ioc.ApplicationTests.test_case3(ApplicationTests.java:57)
 
