@@ -5,10 +5,9 @@ public class Student {
     private String name;
     
 
- Student(){
+ Student(){   }
 
-    }
-public String getRollNo(){
+public int getRollNo(){
     return rollNo;
 }
 
@@ -24,5 +23,8 @@ public void setName(String name){
     this.name=name;
 }
 
+public String getMessage(){
+    return "Roll NO "+rollNo+" Name: "+name;
+}
 
 }

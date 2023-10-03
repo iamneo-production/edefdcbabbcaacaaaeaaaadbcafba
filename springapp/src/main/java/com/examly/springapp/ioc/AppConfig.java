@@ -14,3 +14,4 @@ public class AppConfig {
     public Student getStudent(){
         return new Student();
     }
+}
